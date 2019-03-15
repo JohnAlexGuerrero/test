@@ -1,9 +1,11 @@
-<center>Mi script </center>
-<?php
-    //crear variable
-    $nombre = "joan";
-    $apellido = "ayala";
-    $email = "joanAyalajoan@hotmail.com";
+<center>
+<table>Operaciones Aritmeticas<table>
+</center>
 
-    echo "wellcome "."<br>".$nombre;
+<?php
+    /* operacione aritmticas*/
+    $number1 = 4;
+    $number2 = 5;
+
+    echo "suma".$number1 + $number2;
 ?>
