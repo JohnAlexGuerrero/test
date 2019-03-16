@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+</head>
+<body>
+    CALCULADORA <br> BÀSICA <br>
+    <form action="calculadora.php" method="POST">
+        <label for="">Primer Numero :</label><br>
+        <input type="number" name="num1"><br>
+        <label for="">Segundo Numero :</label><br>
+        <input type="number" name="num2"><br>
+        <label for="">Tipo Operacion :</label><br>
+        <select name="tipo_opr" id="">
+                <option value="0">Elegir</option>
+            <option value="1">Sumar</option>
+            <option value="2">Resta</option>
+            <option value="3">Multiplicacion</option>
+            <option value="4">Division</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Calcular">
+    </form>
+    
+</body>
+</html>
