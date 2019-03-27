@@ -3,6 +3,7 @@
     $numero2 = $_POST['num2'];
     $operacion = $_POST['tipo_opr'];
     $result = 0;
+    $tipo_operacion [];
 
     echo "Numero 1: ".$numero1."<br>";
     echo "Numero 2: ".$numero2."<br>";
