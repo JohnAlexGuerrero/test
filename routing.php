@@ -18,7 +18,7 @@
         switch ($controller) {
             case 'usuario':
                 require_once('Model/Usuario.php');
-                $controller=new UsuarioController();
+                $controller=new usuarioController();
                 print "hola friend";
                 break;
             

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="nav-menu">
     <ul class="nav">
         <li class="nav-item">
             <a href="?controller=usuario&action=register" class="nav-link">Registrarse</a>

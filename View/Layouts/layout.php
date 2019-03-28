@@ -8,15 +8,20 @@
     <title>Music Streaming</title>
 </head>
 <body>
-    <header>
+<header>
         <?php 
             require_once('header.php');
         ?>
     </header>
+<div class=alert alert-success>
+        <img src="images/linkin.jpg"  width="1086" alt="">
+    </div>
+    
     <section>
         <?php
             require_once('routing.php');
-             ?>
+        ?>
     </section>
+    
 </body>
 </html>
