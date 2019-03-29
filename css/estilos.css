@@ -11,6 +11,10 @@ body{
     background-color: black;
 
 }
-#nav-menu{
-    background-color: gray;
+.container{
+    background-color:white;
+}
+.navbar-light{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color:white;
 }
