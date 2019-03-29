@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <title>Music Streaming</title>
+    <link rel="icon" type="image/ico" href="icons/icon_music.png">
 </head>
 <body>
 <header>
