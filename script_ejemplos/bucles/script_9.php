@@ -36,7 +36,7 @@
         $n=rand(-100,100);
       if ($n<0) {
           echo " <td>".$n."</td>";
-          echo "<td> "." </td></tr>";
+          echo "<td>  </td></tr>";
           $negativos[$i]=$n;
       }else if($n>=0){
           echo " <td> "." </td>";
@@ -51,7 +51,7 @@
       $count_n_par=0;
 
       for ($i=0; $i <count($negativos) ; $i++) { 
-      if ($negativos[$i]%2==0) {
+      if (abs($negativos[$i])%2==0) {
         $count_n_par++;    
       }else {
           $count_n_impar++;
